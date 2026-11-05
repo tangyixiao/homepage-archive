@@ -1,42 +1,49 @@
 @font-face {
-  font-family: 'Geist';
+  font-family: 'Hanken Grotesk';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(c2bef016fb9b4bcd.woff2) format('truetype');
+  src: url(cf4b8930b864b433.woff2) format('truetype');
 }
 @font-face {
-  font-family: 'Geist';
+  font-family: 'Hanken Grotesk';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(541119bccb21575e.woff2) format('truetype');
+  src: url(bac34dd4b9537444.woff2) format('truetype');
 }
 @font-face {
-  font-family: 'Geist';
+  font-family: 'Hanken Grotesk';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(011cb50bc76b8e25.woff2) format('truetype');
+  src: url(0b905a4fc43ece05.woff2) format('truetype');
 }
 @font-face {
-  font-family: 'Geist';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(e374eee52bb36e03.woff2) format('truetype');
-}
-@font-face {
-  font-family: 'Geist Mono';
+  font-family: 'Newsreader';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(706d7515d64b1e19.woff2) format('truetype');
+  src: url(d6c65600eb0149bc.woff2) format('truetype');
 }
 @font-face {
-  font-family: 'Geist Mono';
+  font-family: 'Newsreader';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(e858776f9ad0d058.woff2) format('truetype');
+  src: url(3208926ba69d6886.woff2) format('truetype');
+}
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(151ae355673a2936.woff2) format('truetype');
+}
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(33e1f2853df3544d.woff2) format('truetype');
 }

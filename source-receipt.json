@@ -2,10 +2,33 @@
   "repo": "tangyixiao/homepage-archive",
   "sourceBranch": "main",
   "sourceCommit": "1aeaf9086fde615fcf090c65d176215f08073a27",
+  "designVersion": 3,
+  "direction": {
+    "visualConcept": "烟草棕、褪色青与黑字的个人网页考古柜：目录名组成一组不同深度的年代盒，封面只写归档日期与旧目录；展开后呈现原始文件路径，而不是把过期系统做成可用产品。事实边界：2026-10-24 移出且不再维护的历史快照，现行站点/Worker 必须指回主仓库。",
+    "layout": "atlas",
+    "palette": {
+      "light": {
+        "bg": "#DFD7C2",
+        "surface": "#F4EAD3",
+        "ink": "#3B382B",
+        "muted": "#635d4b",
+        "accent": "#4e6055"
+      },
+      "dark": {
+        "bg": "#23241B",
+        "surface": "#35392B",
+        "ink": "#EFE8D0",
+        "muted": "#aeb69a",
+        "accent": "#a3c6af"
+      }
+    },
+    "threeConcept": "Three.js 创建带旧目录名纸签的可打开档案盒，盒盖内侧刻 2026-10-24 来源日期，内部放静态文档平面；打开只展示快照关系，不启动旧 Worker。",
+    "distinctiveInteraction": "点击目录盒展开真实源码入口及“历史快照”说明；现行实现链接保持独立而醒目，避免用户将旧配置误认为当前部署指南。"
+  },
   "media": [],
   "skills": [
     "baoyu-design",
     "design-taste-frontend"
   ],
-  "design": "content-first source/product/photography; no rejected template or faux 3D"
+  "flagshipModel": null
 }
