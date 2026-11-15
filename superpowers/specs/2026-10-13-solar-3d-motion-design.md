@@ -63,7 +63,7 @@ The engineering consequence is a real translation law for the whole system, a di
 
 - The orbital `angle` is no longer hardcoded. It is evaluated at module load from JPL J2000 linear elements for the current date: `T = (JD − 2451545) / 36525` and `M₀ = L₀ + L̇·T − ϖ`.
 - All eight planets switch to the JPL table together. The code previously mixed NASA NSSDCA values and carried no rate term at all, so the scene could not reproduce any real date and effectively sat at a frozen epoch.
-- The result the user asked for: opening the page places every planet at its true position for today, with no manual configuration and no stored state.
+- The intended result: opening the page places every planet at its true position for today, with no manual configuration and no stored state.
 - Before this change the same page opened to the same sky on every visit, which was the strongest single signal that the scene was a diagram rather than a simulation.
 - `T` is centuries since J2000 and `ϖ` is the longitude of perihelion, so the mean anomaly follows from the mean longitude at epoch plus its rate over the elapsed interval. Evaluating at module load keeps the scene a pure function of the current date, with no fetch, no cache, and no first-frame jump.
 
