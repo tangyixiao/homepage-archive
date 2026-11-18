@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "description": "Explore preserved site pages, game notes and early blog files that were moved out of the personal website. Their original folders make older references easier to follow."
+  },
+  "pages": {
+    "home": {
+      "title": "Revisit earlier personal site projects · {project}"
+    },
+    "features": {
+      "title": "Features · {project}",
+      "description": "Explore preserved site pages, game notes and early blog files that were moved out of the personal website. Their original folders make older references easier to follow."
+    },
+    "download": {
+      "title": "Get started · {project}",
+      "description": "Open sites-blog/dist and look in posts for the archived articles."
+    },
+    "community": {
+      "title": "Community · {project}",
+      "description": "Find usage guidance, follow discussions and review changes to this project."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "download": "Get started",
+    "community": "Community"
+  },
+  "ui": {
+    "skip_link": "Skip to main content",
+    "navigation": "Main navigation",
+    "open_navigation": "Open navigation",
+    "close_navigation": "Close navigation",
+    "language": "Choose language",
+    "theme": "Choose theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "platforms": "Supported platforms",
+    "github": "GitHub",
+    "view_image": "View full illustration",
+    "feature_more": "Explore features",
+    "download": "Browse the blog snapshot",
+    "release_notes": "Source repository",
+    "documentation": "Documentation",
+    "source": "Source repository",
+    "illustration": "First steps",
+    "license": "Source and usage terms"
+  },
+  "hero": {
+    "title": [
+      "Revisit earlier personal site projects"
+    ],
+    "description": [
+      "Explore preserved site pages, game notes and early blog files that were moved out of the personal website. Their original folders make older references easier to follow."
+    ],
+    "primary_action": "Browse the blog snapshot",
+    "secondary_action": "Explore features"
+  },
+  "preview": {
+    "caption": "First steps",
+    "tabs": [
+      {
+        "label": "Get started",
+        "icon": "book"
+      }
+    ],
+    "items": [
+      {
+        "title": "Browse the blog snapshot",
+        "description": "Open sites-blog/dist and look in posts for the archived articles.",
+        "icon": "book"
+      },
+      {
+        "title": "Check the provenance",
+        "description": "The README records the migration date and the source revisions for the extracted folders and standalone blog.",
+        "icon": "link"
+      }
+    ]
+  },
+  "features": {
+    "title": "Project features",
+    "groups": [
+      {
+        "title": "An early static blog",
+        "description": "The sites-blog/dist snapshot contains the generated blog index, articles and assets.",
+        "detail": "",
+        "icon": "layers"
+      },
+      {
+        "title": "Older site projects",
+        "description": "KCM materials, the luoshao pages and game notes remain in separate historical folders.",
+        "detail": "",
+        "icon": "book"
+      }
+    ]
+  },
+  "getting_started": {
+    "title": "Get started · {project}",
+    "steps": [
+      {
+        "title": "Browse the blog snapshot",
+        "description": "Open sites-blog/dist and look in posts for the archived articles.",
+        "icon": "book"
+      },
+      {
+        "title": "Check the provenance",
+        "description": "The README records the migration date and the source revisions for the extracted folders and standalone blog.",
+        "icon": "link"
+      }
+    ]
+  },
+  "community": {
+    "title": "Community · {project}",
+    "description": "Find usage guidance, follow discussions and review changes to this project.",
+    "links": [
+      {
+        "label": "Help and feedback",
+        "description": "Browse existing reports or describe a reproducible problem.",
+        "icon": "book"
+      },
+      {
+        "label": "Source repository",
+        "description": "Find the project and its maintenance links.",
+        "icon": "link"
+      },
+      {
+        "label": "Review changes",
+        "description": "Review open pull requests or prepare a contribution.",
+        "icon": "code"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "{copyright}"
+  }
+}
